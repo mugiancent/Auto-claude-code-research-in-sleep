@@ -54,6 +54,7 @@ allowed-tools: Read, Write, Bash(*)
 1. 安装你修改的 Skill：`cp -r skills/your-skill ~/.claude/skills/`
 2. 在 Claude Code 中测试：`/your-skill 测试参数`
 3. 验证 Skill 按预期工作
+4. 如果 Skill 使用了 `Bash(*)` 权限，请确保在沙箱环境中测试，避免对本地文件造成意外修改
 
 ## Pull Request 流程
 

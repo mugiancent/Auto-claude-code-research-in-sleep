@@ -55,6 +55,7 @@ allowed-tools: Read, Write, Bash(*)
 2. 在 Claude Code 中测试：`/your-skill 测试参数`
 3. 验证 Skill 按预期工作
 4. 如果 Skill 使用了 `Bash(*)` 权限，请确保在沙箱环境中测试，避免对本地文件造成意外修改
+5. 建议在测试前备份 `~/.claude/skills/` 目录，方便回滚：`cp -r ~/.claude/skills/ ~/.claude/skills_backup/`
 
 ## Pull Request 流程
 

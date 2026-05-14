@@ -42,8 +42,4 @@
 
 [中文版 README](README_CN.md) | English
 
-> **Personal note:** I'm using this primarily with Ollama (local LLaMA models) for offline research sessions. The `/plan` + Research Wiki combo has been especially useful for literature review workflows.
-
-![Score Progression](docs/auto_review_score_curve.png)
-
-> 🌙 **Let Claude Code do research while you sleep.** Wake up to find your paper scored, weaknesses identified, experiments run, and narrat
+> **Personal note:** I'm using this primarily with Ollama (local LLaMA models) for offline research sessions. The `/plan` + Research Wiki combo has been especially useful for literature review workflows. My typical setup uses `llama3.1:70b` as the executor and `llama3.1:8b` as the reviewer for a good speed/quality tradeoff on my local machine. Running on an RTX 4090 — context window set to 8192 works best for me without hitting memory limits.
